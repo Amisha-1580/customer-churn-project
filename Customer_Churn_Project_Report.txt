@@ -1,0 +1,46 @@
+
+# Customer Churn Prediction Project
+
+## Overview
+This project aims to analyze and predict customer churn using a dataset of customer details and behavior. It involves exploratory data analysis, data preprocessing, and applying machine learning models to predict churn.
+
+## Libraries Used
+- pandas
+- numpy
+- seaborn
+- matplotlib
+- scikit-learn
+
+## Workflow Summary
+
+1. **Data Loading and Exploration**
+   - Loaded the customer churn dataset
+   - Performed initial inspection and handled missing values
+
+2. **Data Cleaning**
+   - Replaced blank values in 'TotalCharges' with 0
+   - Converted data types appropriately
+   - Removed unnecessary columns
+
+3. **Exploratory Data Analysis (EDA)**
+   - Visualized the distribution of features like tenure, MonthlyCharges, etc.
+   - Analyzed relationships between features and churn
+
+4. **Feature Engineering**
+   - Created dummy variables for categorical features
+   - Normalized numerical data
+
+5. **Modeling**
+   - Applied Logistic Regression and Decision Tree Classifier
+   - Evaluated models using accuracy, confusion matrix, and classification reports
+
+6. **Results**
+   - Provided performance metrics for each model
+   - Identified key features impacting customer churn
+
+## Conclusion
+This notebook successfully demonstrates a pipeline from raw data to predictive modeling for customer churn. Further model tuning and testing on additional datasets can improve accuracy.
+
+---
+
+*Generated automatically for GitHub documentation.*
