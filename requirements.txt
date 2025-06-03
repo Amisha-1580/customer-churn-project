@@ -1,0 +1,9 @@
+# Create a requirements.txt file based on common packages used in the notebook
+
+requirements = """
+pandas
+numpy
+seaborn
+matplotlib
+scikit-learn
+"""
